@@ -41,20 +41,17 @@ $menu->organizeTree($a)->buildTree();
 
 **1. Вывод дерева в консоли в виде текста:**
 ```
-#!php
 echo $menu;
 ```
 
 **2. Взятие ветки от узла с идентификатором 1 и вывод в консоли:**
 ```
-#!php
 $item1 = $menu->getItemById(1);
 echo $item1;
 ```
 
 **3. Взятие пути до корня от узла с идентификатором 4**
 ```
-#!php
 $item4 = $menu->getItemById(4);
 echo $item4->getPath();
 ```
